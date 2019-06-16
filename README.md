@@ -15,6 +15,17 @@ Mbstring PHP Extension
 composer global require "laravel/lumen-installer"
 ```
 
+### Archivo .env
+``` bash
+Tomar de ejemplo el archivo .env.example para configurar el acceso a la BD. Tienes que crear un archivo que sea .env solo.
+```
+
+### Ejecutar las Migraciones
+``` bash
+php artisan migrate
+```
+
+
 ###  Ejecutar Servidor Local
 ``` bash
 php -S localhost:8000 -t public
