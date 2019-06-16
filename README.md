@@ -17,7 +17,7 @@ composer global require "laravel/lumen-installer"
 
 ### Archivo .env
 ``` bash
-Tomar de ejemplo el archivo .env.example para configurar el acceso a la BD. Tienes que crear un archivo que sea .env solo.
+Tomar de ejemplo el archivo .env.example para configurar el acceso a la BD. Tienes que crear un archivo que sea .env solo. El campo APP_KEY completar con el valor devuelot por el endpoint /key.
 ```
 
 ### Ejecutar las Migraciones
